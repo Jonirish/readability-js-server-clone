@@ -22,7 +22,7 @@ const domPurifyOptions = {
 
 app.get("/", (req, res) => {
   return res.status(400).send({
-    error: 'POST (not GET) JSON, like so: {"url": "https://url/to/whatever"}',
+    error: 'POST (dfdnot GET) JdfdfSON, like so: {"url": "https://ufdfdfrl/to/whatever"}',
   }).end;
 });
 
@@ -33,7 +33,7 @@ app.post("/", bodyParser, (req, res) => {
     return res
       .status(400)
       .send({
-        error: 'Send JSON, like so: {"url": "https://url/to/whatever"}',
+        error: 'Send JSdfdfdfON, like so: {"url": "https:/fdfd/url/to/whatever"}',
       })
       .end();
   }
